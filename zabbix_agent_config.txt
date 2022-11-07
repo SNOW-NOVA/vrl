@@ -1,0 +1,26 @@
+# // ZABBIX AGENT CONFIGURATION
+# // VERSION 1.0 / DATE OCT-2022
+# // AUTHOR S.MCGUANE
+
+# // CONFIG START ////////////////////////////////////////////////////////// 
+
+Server=10.112.246.14
+ServerActive=10.112.246.14
+HostnameItem=system.hostname
+
+Timeout=3
+DebugLevel=3
+ListenPort=10050
+StartAgents=3
+HeartbeatFrequency=60
+RefreshActiveChecks=120
+
+LogType=file
+LogFile=C:\Program Files\Zabbix Agent\zabbix_agentd.log
+LogFileSize=1024
+
+Include=C:\Program Files\Zabbix Agent\zabbix_agentd.d\
+
+# // CONFIG END ////////////////////////////////////////////////////////////
+
+
