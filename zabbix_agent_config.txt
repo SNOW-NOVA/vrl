@@ -1,6 +1,6 @@
 # // ZABBIX AGENT CONFIGURATION
 # // VERSION 1.0 / DATE OCT-2022
-# // AUTHOR S.MCGUANE
+# // AUTHOR S.XXXXXX
 
 # // CONFIG START ////////////////////////////////////////////////////////// 
 
